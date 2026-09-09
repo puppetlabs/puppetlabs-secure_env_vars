@@ -1,4 +1,6 @@
 ---
+inherit_from: .rubocop_todo.yml
+
 plugins:
 - rubocop-performance
 - rubocop-hash_inspect
@@ -28,9 +30,12 @@ Layout/LineLength:
   Max: 200
 RSpec/BeforeAfterAll:
   Description: Beware of using after(:all) as it may cause state to leak between tests.
-    A necessary evil in acceptance testing.
+    A necessary evil in acceptance testing. spec/plans/init_spec.rb also needs it --
+    BoltSpec::Plans.init (Bolt::PAL.load_puppet + Logging.init) is one-time setup;
+    switching it to before(:each) breaks every example in that file.
   Exclude:
   - spec/acceptance/**/*.rb
+  - spec/plans/init_spec.rb
 RSpec/HookArgument:
   Description: Prefer explicit :each argument, matching existing module's style
   EnforcedStyle: each
