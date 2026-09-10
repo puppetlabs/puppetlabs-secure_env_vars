@@ -13,13 +13,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - (BOLT-193): secure_env_vars pdk update to puppet 9 [#5](https://github.com/puppetlabs/puppetlabs-secure_env_vars/pull/5) ([gavindidrichsen](https://github.com/gavindidrichsen))
 
-
-## [v0.2.0]()
-
-### New features
-
-* **Bump maximum Puppet version to include 7.x** ([#14](https://github.com/puppetlabs/puppetlabs-azure_inventory/pull/14))
-
-## Release 0.1.0
-
-This is the initial release.
+Release notes prior to v1.0.0 have been moved to [ARCHIVE.md](ARCHIVE.md).
