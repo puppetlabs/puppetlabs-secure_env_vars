@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-secure_env_vars",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "Puppet",
   "summary": "Run a command or script with sensitive environment variables.",
   "license": "Apache-2.0",
@@ -15,19 +15,19 @@
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
       "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "8"
+        "9"
       ]
     },
     {
@@ -39,25 +39,13 @@
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "9"
+        "12"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "18.04"
-      ]
-    },
-    {
-      "operatingsystem": "Fedora",
-      "operatingsystemrelease": [
-        "29"
-      ]
-    },
-    {
-      "operatingsystem": "Darwin",
-      "operatingsystemrelease": [
-        "16"
+        "24.04"
       ]
     },
     {
@@ -67,26 +55,19 @@
       ]
     },
     {
-      "operatingsystem": "Solaris",
+      "operatingsystem": "Windows",
       "operatingsystemrelease": [
-        "11"
-      ]
-    },
-    {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2019",
-        "10"
+        "2019"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.10.0 < 8.0.0"
+      "version_requirement": ">= 8.0.0 < 10.0.0"
     }
   ],
-  "pdk-version": "1.18.1",
-  "template-url": "https://github.com/puppetlabs/pdk-templates#1.18.1",
-  "template-ref": "tags/1.18.1-0-g3d2e75c"
+  "pdk-version": "3.6.1",
+  "template-url": "https://github.com/puppetlabs/pdk-templates.git#main",
+  "template-ref": "heads/main-0-gb7f9e32"
 }
