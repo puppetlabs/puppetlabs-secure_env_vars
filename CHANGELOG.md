@@ -13,11 +13,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - (BOLT-193): secure_env_vars pdk update to puppet 9 [#5](https://github.com/puppetlabs/puppetlabs-secure_env_vars/pull/5) ([gavindidrichsen](https://github.com/gavindidrichsen))
 
-### Other
 
-- CHANGELOG update [#6](https://github.com/puppetlabs/puppetlabs-secure_env_vars/pull/6) ([gavindidrichsen](https://github.com/gavindidrichsen))
-- (maint) Add release workflow [#4](https://github.com/puppetlabs/puppetlabs-secure_env_vars/pull/4) ([beechtom](https://github.com/beechtom))
+## [v0.2.0]()
 
-## [0.2.0](https://github.com/puppetlabs/puppetlabs-secure_env_vars/tree/0.2.0) - 2021-01-22
+### New features
 
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-secure_env_vars/compare/14388891188457748aeb1f806fa4c8363adbb292...0.2.0)
+* **Bump maximum Puppet version to include 7.x** ([#14](https://github.com/puppetlabs/puppetlabs-azure_inventory/pull/14))
+
+## Release 0.1.0
+
+This is the initial release.
