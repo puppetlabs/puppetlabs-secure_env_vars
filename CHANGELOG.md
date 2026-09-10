@@ -1,5 +1,11 @@
 # Changelog
 
+## Release 1.0.0
+
+### Breaking changes
+
+* **Require Puppet 8/9** ([BOLT-193](https://perforce.atlassian.net/browse/BOLT-193))
+
 ## Release 0.2.0
 
 ### New features
